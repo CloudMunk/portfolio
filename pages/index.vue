@@ -32,98 +32,99 @@
       <v-layout justify-center class="mb-5">
          <h1 class="underline">Projects</h1>
       </v-layout>
+      <!-- First Row -->
       <v-layout>
         <!-- Mysteries of Existence -->
-      <v-card
-        class="ml-2 mr-2"
-        max-width="400"
-      >
-        <v-img
-          class="white--text align-end"
-          height="200px"
-          src="/pyramidMilkyWay.jpg"
+        <v-card
+          class="ml-2 mr-2"
+          max-width="400"
         >
-        </v-img>
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="/pyramidMilkyWay.jpg"
+          >
+          </v-img>
 
-        <v-card-text class="text--primary">
+          <v-card-text class="text--primary">
 
-          <div>
+            <div>
+              <h2 class="mb-3">
+                Mysteries Of Existence 
+              </h2>
+              <h4 style="color:#38ef7d">
+                  Google Adsense | Analytics | SSR | Scores 100 on SEO & as a PWA app |
+              </h4>
+              <p class="mt-3">
+                Passion project built over the Christmas Holidays in 2019.
+              
+              </p>
+              <p>
+                Project was built utilizing Nuxt.js & Vuetify with Storyblok acting as a
+                headless CMS for easy intergration to post content and articles.
+              </p>
+            </div>
+          </v-card-text>
+          <v-card-actions>
+          <a
+            href="https://www.mysteriesofexistence.com"
+            target=_blank
+            class="noDeco"
+            >
+              <v-btn
+              color="orange"
+              text
+              style="margin-top: 1.6em;"
+        
+            >
+              Go to Website
+            </v-btn>
+            </a>   
+          </v-card-actions>
+        </v-card>
+        <!-- Robo Friends -->
+        <v-card
+          class="ml-2 mr-2"
+          max-width="400"
+        >
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="/RoboFriends.png"
+          >
+
+          </v-img>
+
+          <v-card-text class="text--primary">
             <h2 class="mb-3">
-              Mysteries Of Existence 
+              RoboFriends 
             </h2>
-            <h4 style="color:#38ef7d">
-                Google Adsense | Analytics | SSR | Scores 100 on SEO & as a PWA app |
-            </h4>
-            <p class="mt-3">
-              Passion project built over the Christmas Holidays in 2019.
-             
-            </p>
-            <p>
-              Project was built utilizing Nuxt.js & Vuetify with Storyblok acting as a
-              headless CMS for easy intergration to post content and articles.
-            </p>
-          </div>
-        </v-card-text>
-        <v-card-actions>
-         <a
-          href="https://www.mysteriesofexistence.com"
-          target=_blank
-          class="noDeco"
-          >
-            <v-btn
-            color="orange"
-            text
-            style="margin-top: 1.6em;"
-      
-          >
-            Go to Website
-          </v-btn>
-          </a>   
-        </v-card-actions>
-      </v-card>
-      <!-- Robo Friends -->
-      <v-card
-        class="ml-2 mr-2"
-        max-width="400"
-      >
-        <v-img
-          class="white--text align-end"
-          height="200px"
-          src="/RoboFriends.png"
-        >
-
-        </v-img>
-
-        <v-card-text class="text--primary">
-          <h2 class="mb-3">
-            RoboFriends 
-          </h2>
-          <div>
-            <p>
-              React.js Project that filters through Robots that are generated through an API request.
-            </p>
-            <p>
-              Built this project back in early 2018 while I was learning how to use React.js and practice some
-              search functionalities through API requests.
-            </p>
-          </div>
-        </v-card-text>
-        <v-card-actions>
-         <a
-          href="https://sad-kare-e79291.netlify.com/"
-          target=_blank
-          class="noDeco"
-          >
-            <v-btn
-            color="orange"
-            text
-      
-          >
-            Go to Website
-          </v-btn>
-          </a>   
-        </v-card-actions>
-      </v-card>
+            <div>
+              <p>
+                React.js Project that filters through Robots that are generated through an API request.
+              </p>
+              <p>
+                Built this project back in early 2018 while I was learning how to use React.js and practice some
+                search functionalities through API requests.
+              </p>
+            </div>
+          </v-card-text>
+          <v-card-actions>
+          <a
+            href="https://sad-kare-e79291.netlify.com/"
+            target=_blank
+            class="noDeco"
+            >
+              <v-btn
+              color="orange"
+              text
+        
+            >
+              Go to Website
+            </v-btn>
+            </a>   
+          </v-card-actions>
+        </v-card>
       </v-layout>
       <!-- Second Row -->
       <v-layout>
@@ -311,7 +312,191 @@
           </v-card-actions>
         </v-card>
       </v-layout>
-      
+      <!-- Fourth Row -->
+      <v-layout>
+        <!-- Background Generator  -->
+        <v-card
+          class="ml-2 mr-2 mt-5"
+          max-width="400"
+        >
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="/bgGenerator.jpg"
+          >
+          </v-img>
+
+          <v-card-text class="text--primary">
+
+            <div>
+              <h2 class="mb-3">
+                Background Generator for CSS linear Gradients
+              </h2>
+              <p>
+                Built this to simplify creating linear backgrounds for my apps and also as practice.
+              </p> 
+              <p>
+                Written with HTML5, CSS3 & Vanilla JS. It also filters through books, 
+                has custom built animations and a carousel library.
+              </p>
+              <p>
+                Built in early 2019
+              </p>
+            </div>
+          </v-card-text>
+          <v-card-actions>
+          <a
+            href="https://eloquent-pare-0bde7f.netlify.com/"
+            target=_blank
+            class="noDeco"
+            >
+              <v-btn
+              color="orange"
+              text
+        
+            >
+              Go to Website
+            </v-btn>
+            </a>   
+          </v-card-actions>
+        </v-card>
+        <!-- Sanity Blog -->
+        <v-card
+          class="ml-2 mr-2 mt-5"
+          max-width="400"
+        >
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="/SanityBlog.png"
+          >
+          
+          </v-img>
+
+          <v-card-text class="text--primary">
+
+            <div>
+              <h2 class="mb-3">
+                A Sanity Blog
+              </h2>
+              <p>
+                A boilerplate Sanity Blog using GraphQL, React, Gatsby, JAMStack,
+                Vanilla JS
+              </p>
+              <p>
+                Boilerplate Blog for building quick, scalable & SEO friendly blogs for
+                bloggers & writers alike.
+              </p>
+            </div>
+          </v-card-text>
+          <v-card-actions>
+          <a
+            href="https://sanity-gatsby-blog-web-prcn9bgo.netlify.com/"
+            target=_blank
+            class="noDeco"
+            >
+              <v-btn
+              color="orange"
+              text
+        
+            >
+              Go to Website
+            </v-btn>
+            </a>   
+          </v-card-actions>
+        </v-card>
+      </v-layout>
+      <!-- Fifth Row -->
+      <v-layout>
+        <!-- When Crypto News  -->
+        <v-card
+          class="ml-2 mr-2 mt-5"
+          max-width="400"
+        >
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="/WhenCN.png"
+          >
+          </v-img>
+
+          <v-card-text class="text--primary">
+
+            <div>
+              <h2 class="mb-3">
+                When Crypto News
+              </h2>
+              <p>
+               Crypto Currency News Website built with: Vue.js, Vuex, Vuetify, Axios & Firebase.
+              </p> 
+              <p>
+                This is a Crypto Currency News website that I built in the summer of 2019
+                shortly after graduating my coding Bootcamp in Barcelona.
+              </p>
+              <p>
+                The entirety of this websites creation was streamed live on Twitch.
+              </p>
+            </div>
+          </v-card-text>
+          <v-card-actions>
+          <a
+            href="https://www.whencryptonews.com/"
+            target=_blank
+            class="noDeco"
+            >
+              <v-btn
+              color="orange"
+              text
+        
+            >
+              Go to Website
+            </v-btn>
+            </a>   
+          </v-card-actions>
+        </v-card>
+        <!-- Crypto Sphere -->
+        <v-card
+          class="mt-5"
+          max-width="350"
+        >
+          <v-img
+            class="white--text align-end"
+            height="200px"
+            src="/cryptoSphere2.png"
+          >
+          
+          </v-img>
+
+          <v-card-text class="text--primary">
+
+            <div>
+              <h2 class="mb-3">
+                Built with React.js, React-Router-DOM, Semantic UI and Redux.
+              </h2>
+              <p>
+                 This was a fun little project I built from the ground up to teach myself
+                 better how to use React.js while I was just starting to learn programming
+                 in late 2017.
+              </p>
+            </div>
+          </v-card-text>
+          <v-card-actions>
+          <a
+            href="https://hopeful-bartik-e68a34.netlify.com/"
+            target=_blank
+            class="noDeco"
+            >
+              <v-btn
+              color="orange"
+              text
+        
+            >
+              Go to Website
+            </v-btn>
+            </a>   
+          </v-card-actions>
+        </v-card>
+      </v-layout>
     </v-flex>
   </v-layout>
 </template>
