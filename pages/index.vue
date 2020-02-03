@@ -96,9 +96,13 @@
           </v-img>
 
           <v-card-text class="text--primary">
+            
             <h2 class="mb-3">
               RoboFriends 
             </h2>
+            <h4 style="color:#38ef7d">
+                  React.js | API | Vanilla JS | Search Filtering |
+            </h4>
             <div>
               <p>
                 React.js Project that filters through Robots that are generated through an API request.
@@ -146,6 +150,9 @@
               <h2 class="mb-3">
               Weather App
               </h2>
+              <h4 style="color:#38ef7d">
+                  React.js | API | Vanilla JS | API Filtering |
+              </h4>
               <p>
                 Built with React.js, the app makes an API request and filters to the given City and Country.
                 Then display's the weather data.
@@ -190,6 +197,9 @@
             <h2 class="mb-3">
               Thank God It's Fair
               </h2>
+              <h4 style="color:#38ef7d">
+                  HTML5| CSS3 | Vanilla JS |
+              </h4>
               <p>
                 This was a practice exercise we had 4 days to solve during my coding bootcamp in Barcelona
                 in early 2019.
@@ -237,6 +247,9 @@
               <h2 class="mb-3">
                 Bookstore
               </h2>
+              <h4 style="color:#38ef7d">
+                  HTML5 | CSS3 | Vanilla JS |
+              </h4>
               <p>
                 Built during my coding bootcamp in Barcelona. 
               </p> 
@@ -285,6 +298,9 @@
               <h2 class="mb-3">
                 North Side Soccer League 
               </h2>
+              <h4 style="color:#38ef7d">
+                  HTML5 | CSS3 | Vanilla JS | Registration Forms |
+              </h4>
               <p>
                 A little leagues football page I built during my bootcamp in Barcelona, early 2019.
               </p>
@@ -332,6 +348,9 @@
               <h2 class="mb-3">
                 Background Generator for CSS linear Gradients
               </h2>
+              <h4 style="color:#38ef7d">
+                  HTML5 | CSS3 | Vanilla JS |
+              </h4>
               <p>
                 Built this to simplify creating linear backgrounds for my apps and also as practice.
               </p> 
@@ -379,6 +398,9 @@
               <h2 class="mb-3">
                 A Sanity Blog
               </h2>
+              <h4 style="color:#38ef7d">
+                  GraphQL | React.js | Gatsby | JAMStack | Vanilla JS |
+              </h4>
               <p>
                 A boilerplate Sanity Blog using GraphQL, React, Gatsby, JAMStack,
                 Vanilla JS
@@ -426,8 +448,11 @@
               <h2 class="mb-3">
                 When Crypto News
               </h2>
+              <h4 style="color:#38ef7d">
+                  Vue.js | Vuex | Vanilla JS | Vuetify | Firebase | Axios |
+              </h4>
               <p>
-               Crypto Currency News Website built with: Vue.js, Vuex, Vuetify, Axios & Firebase.
+               Crypto Currency News Website
               </p> 
               <p>
                 This is a Crypto Currency News website that I built in the summer of 2019
@@ -466,16 +491,20 @@
           >
           
           </v-img>
-
           <v-card-text class="text--primary">
-
             <div>
               <h2 class="mb-3">
-                Built with React.js, React-Router-DOM, Semantic UI and Redux.
+                A Crypto Currency News Website
               </h2>
+              <h4 style="color:#38ef7d">
+                  React.js | React-Router-DOM | Semantic UI |
+              </h4>
               <p>
                  This was a fun little project I built from the ground up to teach myself
-                 better how to use React.js while I was just starting to learn programming
+                 better how to use React.js while I was self-studying.
+              </p>
+              <p>
+                 This was during my first months of programming
                  in late 2017.
               </p>
             </div>
