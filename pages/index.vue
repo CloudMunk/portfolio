@@ -451,7 +451,7 @@
         </a> 
         <!-- Crypto Sphere -->
          <a
-          href="https://hopeful-bartik-e68a34.netlify.com/"
+          href="https://zen-brahmagupta-b4be79.netlify.com/"
           target=_blank
           class="noDeco"
         >
@@ -468,7 +468,7 @@
             <v-card-text class="text--primary">
               <div>
                 <h2 class="mb-3">
-                  A Crypto Currency News Website
+                  CryptoSphere
                 </h2>
                 <h4 style="color:#38ef7d">
                     React.js | React-Router-DOM | Semantic UI |
