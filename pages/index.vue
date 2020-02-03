@@ -265,7 +265,7 @@
             </a>   
           </v-card-actions>
         </v-card>
-        <!-- TGIF -->
+        <!-- NYSL -->
         <v-card
           class="ml-2 mr-2 mt-5"
           max-width="400"
@@ -273,7 +273,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/TGIF.png"
+            src="/NYSL.png"
           >
           
           </v-img>
@@ -281,22 +281,22 @@
           <v-card-text class="text--primary">
 
             <div>
-            <h2 class="mb-3">
-              Thank God It's Fair
+              <h2 class="mb-3">
+                North Side Soccer League 
               </h2>
               <p>
-                This was a practice exercise we had 4 days to solve during my coding bootcamp in Barcelona
-                in early 2019.
+                A little leagues football page I built during my bootcamp in Barcelona, early 2019.
               </p>
               <p>
-                The website is built with classical HTML5, CSS3 and Vanilla JS, and was a fun project
-                where I learnt a lot about filtering and proper implementation of Higher Order Functions.
+                The website is built with classical HTML5, CSS3 and Vanilla JS. 
+                It takes in forms(registrations), displays google locations for where matches will take place,
+                as well as serve as a contact point for the leagues parents.
               </p>
             </div>
           </v-card-text>
           <v-card-actions>
           <a
-            href="https://zealous-fermat-8090e8.netlify.com/"
+            href="https://compassionate-goodall-11cadd.netlify.com/"
             target=_blank
             class="noDeco"
             >
@@ -311,6 +311,7 @@
           </v-card-actions>
         </v-card>
       </v-layout>
+      
     </v-flex>
   </v-layout>
 </template>
