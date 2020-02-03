@@ -1,92 +1,182 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm8
-      md6
-    >
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
-      </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-            >
-              documentation
-            </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              title="chat"
-            >
-              discord
-            </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
+  <v-layout class="hidden-sm-and-down">
+    <v-flex md3 lg4 xl4>
+      <h1 class="underline mb-5">Bio</h1>
+      <v-img
+        src="/moi2.jpg"
+      >
+
+      </v-img>
+      <p class="mt-5">
+       Fullstack Web developer | Writer | Entrepreneur | Polyglot
+      </p>
+      <p class="mt-5">
+       Hi there, my name is Anestis!
+      </p>
+      <p class="mt-5">
+        I'm a fullstack web-developer who leans towards the fron-end of things.
+        I've worked and built projects with Javascript front-end frameworks like
+        <strong>React.js</strong>, <strong>Vue.js</strong>,<strong>Nuxt.js</strong>,
+        but also using classical set-ups in Vanilla JS with HTML5 and CSS3.
+      </p>
+    </v-flex>
+    <v-divider
+      class="mx-4"
+      inset
+      vertical
+    ></v-divider>
+
+
+  <!-- PROJECTS -->
+    <v-flex md9 lg8 xl8>
+      <v-layout justify-center class="mb-5">
+         <h1 class="underline">Projects</h1>
+      </v-layout>
+      <v-layout>
+        <!-- Mysteries of Existence -->
+      <v-card
+        class="ml-2 mr-2"
+        max-width="400"
+      >
+        <v-img
+          class="white--text align-end"
+          height="200px"
+          src="/pyramidMilkyWay.jpg"
+        >
+          <v-card-title>Mysteries Of Existence</v-card-title>
+        </v-img>
+
+        <v-card-text class="text--primary">
+
+          <div>
+            <p>
+              Passion project built over the Christmas Holidays in 2019.
+            </p>
+            <p>
+              Project was built utilizing Nuxt.js & Vuetify with Storyblok acting as a
+              headless CMS for easy intergration to post content and articles.
+            </p>
           </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-          >
-            Nuxt GitHub
-          </a>
         </v-card-text>
         <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
+         <a
+          href="https://www.mysteriesofexistence.com"
+          target=_blank
+          class="noDeco"
           >
-            Continue
+            <v-btn
+            color="orange"
+            text
+      
+          >
+            Go to Website
           </v-btn>
+          </a>   
         </v-card-actions>
       </v-card>
+      <!-- Robo Friends -->
+      <v-card
+        class="ml-2 mr-2"
+        max-width="400"
+      >
+        <v-img
+          class="white--text align-end"
+          height="200px"
+          src="/RoboFriends.png"
+        >
+          <v-card-title>RoboFriends</v-card-title>
+        </v-img>
+
+        <v-card-text class="text--primary">
+
+          <div>
+            <p>
+              React.js Project that filters through Robots that are generated through an API request.
+            </p>
+            <p>
+              Built this project back in early 2018 while I was learning how to use React.js and practice some
+              search functionalities through API requests.
+            </p>
+          </div>
+        </v-card-text>
+        <v-card-actions>
+         <a
+          href="https://sad-kare-e79291.netlify.com/"
+          target=_blank
+          class="noDeco"
+          >
+            <v-btn
+            color="orange"
+            text
+      
+          >
+            Go to Website
+          </v-btn>
+          </a>   
+        </v-card-actions>
+      </v-card>
+      </v-layout>
+     <v-layout>
+       <v-card
+        class="ml-2 mr-2 mt-5"
+        max-width="400"
+      >
+        <v-img
+          class="white--text align-end"
+          height="200px"
+          src="/RoboFriends.png"
+        >
+          <v-card-title>RoboFriends</v-card-title>
+        </v-img>
+
+        <v-card-text class="text--primary">
+
+          <div>
+            <p>
+              React.js Project that filters through Robots that are generated through an API request.
+            </p>
+            <p>
+              Built this project back in early 2018 while I was learning how to use React.js and practice some
+              search functionalities through API requests.
+            </p>
+          </div>
+        </v-card-text>
+        <v-card-actions>
+         <a
+          href="https://sad-kare-e79291.netlify.com/"
+          target=_blank
+          class="noDeco"
+          >
+            <v-btn
+            color="orange"
+            text
+      
+          >
+            Go to Website
+          </v-btn>
+          </a>   
+        </v-card-actions>
+      </v-card>
+     </v-layout>
     </v-flex>
   </v-layout>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+
 
 export default {
   components: {
-    Logo,
-    VuetifyLogo
+
   }
 }
 </script>
+
+<style scoped>
+.underline {
+  text-decoration: underline;
+}
+.noDeco {
+  text-decoration: none;
+}
+</style>
