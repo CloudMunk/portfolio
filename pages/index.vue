@@ -336,8 +336,7 @@
                   Built this to simplify creating linear backgrounds for my apps and also as practice.
                 </p> 
                 <p>
-                  Written with HTML5, CSS3 & Vanilla JS. It also filters through books, 
-                  has custom built animations and a carousel library.
+                  Written with HTML5, CSS3 & Vanilla JS. 
                 </p>
                 <p>
                   Built in early 2019
@@ -478,8 +477,8 @@
                   better how to use React.js while I was self-studying.
                 </p>
                 <p>
-                  This was during my first months of programming
-                  in late 2017.
+                  This was done in early 2018, and the idea later expanded to become When Crypto news which is 
+                  built in Nuxt.js(Vue.js) instead of React.
                 </p>
               </div>
             </v-card-text>
