@@ -354,7 +354,7 @@
           </v-card>
         </a>
         <!-- Sanity Blog -->
-        <a
+        <!-- <a
           href="https://sanity-gatsby-blog-web-prcn9bgo.netlify.com/"
           target=_blank
           class="noDeco"
@@ -397,7 +397,7 @@
               </v-btn>   
             </v-card-actions>
           </v-card>
-        </a>
+        </a> -->
       </v-layout>
       <!-- Fifth Row -->
       <v-layout>
