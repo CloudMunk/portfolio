@@ -29,7 +29,8 @@
 export default {
   data () {
     return {
-      
+      clipped: true,
+      fixed: true,
       title: 'Anestis Finstad'
     }
   }

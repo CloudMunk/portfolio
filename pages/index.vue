@@ -79,35 +79,36 @@
             </v-card-actions>
           </v-card>
         </a> 
-        <!-- Robo Friends -->
-        <a href="https://sad-kare-e79291.netlify.com/"
+         <!-- RWODY BAGS -->
+        <a
+          href="https://www.rowdybags.com"
           target=_blank
           class="noDeco"
         >
           <v-card
-            class="ml-2 mr-2 box"
+            class="ml-2 mr-2 mt-5 box"
             max-width="400"
           >
             <v-img
               class="white--text align-end"
               height="200px"
-              src="/RoboFriends.png"
+              src="/duffel.jpg"
             >
             </v-img>
-            <v-card-text class="text--primary">     
-              <h2 class="mb-3">
-                RoboFriends 
-              </h2>
-              <h4 style="color:#38ef7d">
-                    React.js | API | Vanilla JS | Search Filtering |
-              </h4>
+            <v-card-text class="text--primary">
               <div>
+                <h2 class="mb-3">
+                  ROWDY BAGS
+                </h2>
+                <h4 style="color:#38ef7d">
+                    RoR | Liquid HTML | CSS | Shopify | Vanilla JS |
+                 </h4>
                 <p>
-                  React.js Project that filters through Robots that are generated through an API request.
+                  Built & Designed for ROWDY Bags in the beginning of 2020 during Corona pandemic.
                 </p>
                 <p>
-                  Built this project back in early 2018 while I was learning how to use React.js and practice some
-                  search functionalities through API requests.
+                  This is a custom eCommerce website I built for ROWDY Bags who sell luxury
+                  leather goods from South Africa acroos the world.
                 </p>
               </div>
             </v-card-text>
@@ -115,10 +116,10 @@
                 <v-btn
                 color="orange"
                 text
-                style="margin-top: 33px;"
+          
               >
                 Go to Website
-              </v-btn> 
+              </v-btn>   
             </v-card-actions>
           </v-card>
         </a>
@@ -353,37 +354,35 @@
             </v-card-actions>
           </v-card>
         </a>
-        <!-- Sanity Blog -->
-        <!-- <a
-          href="https://sanity-gatsby-blog-web-prcn9bgo.netlify.com/"
+         <!-- Robo Friends -->
+        <a href="https://sad-kare-e79291.netlify.com/"
           target=_blank
           class="noDeco"
         >
           <v-card
-            class="ml-2 mr-2 mt-5 box"
+            class="ml-2 mr-2 box"
             max-width="400"
           >
             <v-img
               class="white--text align-end"
               height="200px"
-              src="/SanityBlog.png"
+              src="/RoboFriends.png"
             >
             </v-img>
-            <v-card-text class="text--primary">
+            <v-card-text class="text--primary">     
+              <h2 class="mb-3">
+                RoboFriends 
+              </h2>
+              <h4 style="color:#38ef7d">
+                    React.js | API | Vanilla JS | Search Filtering |
+              </h4>
               <div>
-                <h2 class="mb-3">
-                  A Sanity Blog
-                </h2>
-                <h4 style="color:#38ef7d">
-                    GraphQL | React.js | Gatsby | JAMStack | Vanilla JS |
-                </h4>
                 <p>
-                  A boilerplate Sanity Blog using GraphQL, React, Gatsby, JAMStack,
-                  Vanilla JS
+                  React.js Project that filters through Robots that are generated through an API request.
                 </p>
                 <p>
-                  Boilerplate Blog for building quick, scalable & SEO friendly blogs for
-                  bloggers & writers alike.
+                  Built this project back in early 2018 while I was learning how to use React.js and practice some
+                  search functionalities through API requests.
                 </p>
               </div>
             </v-card-text>
@@ -391,13 +390,13 @@
                 <v-btn
                 color="orange"
                 text
-          
+                style="margin-top: 33px;"
               >
                 Go to Website
-              </v-btn>   
+              </v-btn> 
             </v-card-actions>
           </v-card>
-        </a> -->
+        </a>
       </v-layout>
       <!-- Fifth Row -->
       <v-layout>
